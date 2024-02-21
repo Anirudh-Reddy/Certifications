@@ -9,7 +9,7 @@
     "email": "john@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
+        "cid": "sfCertificateId1",
         "certificationName": "Associate",
         "status": 0,
         "cost": "$75",
@@ -21,7 +21,7 @@
         "endDate": ""
       },
       {
-        "id": "certificateId2",
+        "cid": "sfCertificateId2",
         "cost": "$75",
         "type": "Associates",
         "level": "Entry-level",
@@ -33,7 +33,7 @@
         "status": 1
       },
       {
-        "id": "certificateId3",
+        "cid": "sfCertificateId3",
         "cost": "$200",
         "type": "Admins",
         "level": "Mid-level",
@@ -52,27 +52,43 @@
     "phoneNumber": "9876543210",
     "position": "UX Designer",
     "experience": 5,
+    "email": "jane@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -82,27 +98,43 @@
     "phoneNumber": "4567890123",
     "position": "Project Manager",
     "experience": 8,
+    "email": "bob@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId5",
+        "certificationName": "Advanced Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId6",
+        "certificationName": "Platform App Builder",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -112,27 +144,55 @@
     "phoneNumber": "8765432109",
     "position": "Marketing Specialist",
     "experience": 2,
+    "email": "alice@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -142,27 +202,55 @@
     "phoneNumber": "5432109876",
     "position": "Data Analyst",
     "experience": 4,
+    "email": "david@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -172,27 +260,55 @@
     "phoneNumber": "2109876543",
     "position": "HR Specialist",
     "experience": 6,
+    "email": "eva@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -202,27 +318,55 @@
     "phoneNumber": "1098765432",
     "position": "Sales Representative",
     "experience": 7,
+    "email": "george@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -232,27 +376,55 @@
     "phoneNumber": "4321098765",
     "position": "Financial Analyst",
     "experience": 9,
+    "email": "hannah@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -262,27 +434,55 @@
     "phoneNumber": "3210987654",
     "position": "Quality Assurance Engineer",
     "experience": 3,
+    "email": "isaac@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   },
@@ -292,27 +492,55 @@
     "phoneNumber": "8765432101",
     "position": "Customer Support Specialist",
     "experience": 4,
+    "email": "jasmine@abc.com",
     "certifications": [
       {
-        "id": "certificateId1",
-        "startDate": "somedate1",
-        "endDate": "somedate1",
-        "certificationName": "somename1",
-        "status": 0
+        "cid": "sfCertificateId1",
+        "certificationName": "Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId2",
-        "startDate": "somedate2",
-        "endDate": "somedate2",
-        "certificationName": "somename2",
-        "status": 1
+        "cid": "sfCertificateId2",
+        "certificationName": "Marketing Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "0-6 months",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
       },
       {
-        "id": "certificateId3",
-        "startDate": "somedate3",
-        "endDate": "somedate3",
-        "certificationName": "somename3",
-        "status": 2
+        "cid": "sfCertificateId3",
+        "certificationName": "AI Associate",
+        "status": 0,
+        "cost": "$75",
+        "type": "Associates",
+        "level": "Entry-level",
+        "experience": "1-2 years",
+        "prerequisite": "None",
+        "startDate": "",
+        "endDate": ""
+      },
+      {
+        "cid": "sfCertificateId4",
+        "certificationName": "Administrator",
+        "status": 0,
+        "cost": "$200",
+        "type": "Admins",
+        "level": "Mid-level",
+        "experience": "1-2 years",
+        "prerequisite": "Administrator credential",
+        "startDate": "",
+        "endDate": ""
       }
     ]
   }

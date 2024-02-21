@@ -14,15 +14,19 @@
             width: 45%;
             height: 50%;
             max-height: 400px;
+            min-height: 350px;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            padding: 10px 20px;
             position: absolute;
-            top: 25%;
-            left: 30%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
             border-radius: 20px;
-            // animation: moveToRight 1s ease-in forwards;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             background-color: white;
             h3{
@@ -31,8 +35,6 @@
             form{
                 height: 70%;
                 display: flex;
-                // align-items: center;
-                // justify-content: center;
                 flex-direction: column;
                 span{
                     margin: 10px 0;
@@ -41,9 +43,6 @@
                         width: 100%;
                     }
                 }
-            }
-            .login_btn{
-                // text-align: center;
             }
         }
     }
@@ -59,9 +58,71 @@
 }
 
 .emp_cards{
+    height: 100%;
     .emp_cards_header{
+        height: 10%;
+        min-height: 50px;
         display: flex;
         align-items: center;
         padding: 1rem;
+        justify-content: space-between;
+        .emp_cards_left{
+            display: flex;
+            align-items: center;
+            h3{
+                margin-left: 10px;
+            }
+        }
+        .emp_cards_right{
+            
+        }
     }
+    .emp_cards_container{
+        height: 90%;
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:768px){
+    .emp_login{
+        width: 65% !important;
+        font-size: 14px;
+    }
+
+    .emp_cards_header{
+        height: 8%;
+        min-height: 50px;
+    }
+
+    .emp_cards_container{
+        height: 92%;
+    }
+}
+
+.emp_nav{
+    width: 100%;
+    height: calc(100% - 4rem);
+    overflow: hidden;
+    position: absolute;
+    top: 4rem;
+    z-index: 999;
+}
+
+.emp_dialog{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 4rem;
+    z-index: 1;
+}
+
+.emp_dialog::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #222;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
 }
